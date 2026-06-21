@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f43f5e;
+  --color-primary-hover: #e11d48;
+  --color-secondary: #0f172a;
+  --color-surface: #ffffff;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  --font-family-sans: 'Outfit', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --shadow-card: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.05);
+  --shadow-hover: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+}
+
+/* ===== Base ===== */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Auth pages ===== */
+.auth-body {
+  background: radial-gradient(circle at 10% 20%, rgba(244, 63, 94, 0.1) 0%, rgba(217, 70, 239, 0.05) 90.1%), #f8fafc;
+}
+
+/* ===== Buttons ===== */
+.btn-gradient {
+  background: linear-gradient(135deg, #f43f5e 0%, #d946ef 100%);
+  box-shadow: 0 4px 15px rgba(244, 63, 94, 0.3);
+}
+.btn-gradient:hover {
+  box-shadow: 0 6px 20px rgba(244, 63, 94, 0.4);
+  filter: brightness(1.05);
+}
+
+/* ===== Header gradient text ===== */
+.gradient-text {
+  background: linear-gradient(135deg, #f43f5e 0%, #d946ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Product card ===== */
+.product-card img {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.product-card:hover img {
+  transform: scale(1.03);
+}
+
+/* ===== Sidebar nav active ===== */
+.sidebar a.active {
+  background: rgba(244, 63, 94, 0.08);
+  color: #f43f5e;
+  border-left-color: #f43f5e;
+}
+
+/* ===== Badge variants ===== */
+.badge-en_attente { background: #fef3c7; color: #92400e; }
+.badge-confirmée { background: #dbeafe; color: #1e40af; }
+.badge-en_livraison { background: #d1fae5; color: #065f46; }
+.badge-livrée, .badge-livré { background: #bbf7d0; color: #14532d; }
+.badge-annulée { background: #fee2e2; color: #991b1b; }
+.badge-en_cours { background: #dbeafe; color: #1e40af; }
+
+/* ===== Stock low ===== */
+.stock-low { background: #fee2e2; color: #ef4444; }
+
+/* ===== Line clamp for product titles ===== */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== Quantity buttons ===== */
+.btn-qte {
+  width: 32px; height: 32px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-qte:hover {
+  background: #f43f5e;
+  color: white;
+  border-color: #f43f5e;
+}
+
+/* ===== Detail info grid (commandes admin) ===== */
+.detail-info { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.88rem; margin-bottom: 1.25rem; }
+.detail-info span { color: #64748b; display: block; font-size: 0.75rem; margin-bottom: 0.1rem; }
+.detail-item { display: flex; justify-content: space-between; padding: 0.55rem 0; border-bottom: 1px solid #e2e8f0; font-size: 0.88rem; }
+.detail-total { display: flex; justify-content: space-between; padding: 0.85rem 0 0; font-weight: 700; color: #f43f5e; font-size: 1rem; }
+
+/* ===== Inline form (livraisons) ===== */
+.inline-form { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
+.inline-form input[type=text] { padding: 0.4rem 0.6rem; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.82rem; width: 110px; }
+
+/* ===== Image actuelle (modifier produit) ===== */
+.image-actuelle img { width: 110px; height: 110px; object-fit: cover; border-radius: 12px; border: 1.5px solid #e2e8f0; }

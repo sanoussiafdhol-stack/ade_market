@@ -1,0 +1,17 @@
+[2026-06-15 16:09:49] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 16:09:52] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 16:09:53] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:13:28] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:13:29] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:13:30] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:13:34] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:13:37] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:15:34] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:05] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:53] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:55] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:56] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:57] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:58] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:58] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}
+[2026-06-15 18:21:59] [ERROR] [IP: ::1] [User: anonymous] Erreur base de données connexion | {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email_verifi' in 'field list'"}

@@ -1,0 +1,1 @@
+[2026-06-16 21:53:13] [ERROR] [IP: ::1] [User: 1] Erreur création session Stripe | {"message":"STRIPE_SECRET_KEY non configur\u00e9e"}
